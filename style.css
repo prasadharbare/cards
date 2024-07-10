@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  main {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    height: 400px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+  
+  .a {
+    background-color: rgb(226, 230, 42);
+    position: relative;
+    left: 20px;
+    rotate: -20deg;
+    background: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+    background-blend-mode: soft-light, screen, overlay, overlay, difference,
+      overlay, normal;
+    box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
+  }
+  
+  .b {
+    background-color: rgb(250, 157, 17);
+    z-index: 1;
+    position: relative;
+    bottom: 60px;
+    rotate: -10deg;
+    background: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+    background-blend-mode: overlay, overlay, difference, difference, color-burn,
+      exclusion;
+    box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
+  }
+  
+  .c {
+    background-color: blue;
+    position: relative;
+    right: 30px;
+    bottom: 80px;
+    z-index: 1;
+    /*   rotate: 1deg; */
+    z-index: 1;
+    background: linear-gradient(to top, #e14fad 0%, #f9d423 100%);
+    background-blend-mode: screen, overlay, hard-light, normal;
+    box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
+  }
+  
+  .d {
+    background-color: rgb(107, 235, 48);
+    position: relative;
+    right: 60px;
+    bottom: 60px;
+    rotate: 10deg;
+    /* z-index: 1; */
+    box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
+    background: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+  }
+  
+  .e {
+    background-color: rgb(104, 74, 74);
+    position: relative;
+    right: 80px;
+  /*   z-index: 1; */
+  botttom: 50px;
+    rotate: 18deg;
+    box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
+    background: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+  }
+  
+  .card:hover {
+    cursor: pointer;
+        transform:scale(1.1);
+  }
+  
