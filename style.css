@@ -23,7 +23,7 @@
   .a {
     background-color: rgb(226, 230, 42);
     position: relative;
-    left: 20px;
+    left: 30px;
     rotate: -20deg;
     background: linear-gradient(to top, #f43b47 0%, #453a94 100%);
     background-blend-mode: soft-light, screen, overlay, overlay, difference,
@@ -70,7 +70,7 @@
   .e {
     background-color: rgb(104, 74, 74);
     position: relative;
-    right: 80px;
+    right: 100px;
   /*   z-index: 1; */
   botttom: 50px;
     rotate: 18deg;
